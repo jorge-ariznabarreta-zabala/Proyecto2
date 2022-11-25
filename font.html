@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El elemento FONT</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>FUENTES</h1>
+
+    <p>La propiedad font permite establecer de una sola vez los valores para todas las propiedades en una hoja de estilo.
+    </p>
+    <p><strong>SINTAXIS</strong> font: font-style font-variant font-weight font-size/line-height font-family</p>
+    <img src="font-screen.png" alt="imagen ejemplo de font">
+    <div>
+
+        <h2>Estilo de fuente font-style</h2>
+    <p>La propiedad font-style se utiliza principalmente para especificar texto en cursiva.</p>
+    <p>normal - font-style: normal</p>
+    <p class="cursiva">cursiva - font-style: italic</p>
+    <p class="oblicua">oblicua - font-style: oblique;</p>
+
+        <h2>Variante font-variant</h2>
+    <p>La propiedad font-variant se utiliza principalmente para convertir en pequeñas mayúsculas las minúsculas.</p>
+    <p style="font-variant: normal"> NORMAL - font-variant: normal </p>
+    <p style="font-variant: small-caps"> mayusculas PEQUEÑAS en lugar de minúsculas - font-variant: small-caps </p>
+
+    <h2>Peso de fuente font-weight</h2>
+    <p>La propiedad font-weight se utiliza principalmente para especificar el grosor del texto.</p>
+    <p>Algunas fuentes tan solo tiene 2 grosores: Arial, Verdana...</p>
+    <p>Otras pueden ajustarse desde 100 a 900</p>
+    <p style="font-weight:100">100 de 900</p>
+    <p style="font-weight:600">500 de 900</p>
+    <p style="font-weight:900">900 de 900</p>
+
+    <h2>Tamaño de letra font-size</h2>
+    <p>Como ha indicado Juan, el tamaño de letra se puede indicar como px, %, em, rem, vh, vw...</p>
+    <p style="font-size:26px">font-size:26px</p>
+    <p style="font-size:250%">font-size:250%</p>
+    <p style="font-size:2em">font-size:2em</p>
+    <p style="font-size:2rem">font-size:2rem</p>
+    <p style="font-size:2vh">font-size:2vh</p>
+    <p style="font-size:2vw;">font-size:2vw</p>
+
+
+    <h2>Altura de linea line-height</h2>
+    <p>También se indica una medida en px, %, em, rem, vh, vw...</p>
+    <p style="line-height:26px">line-height:26px</p>
+    <p style="line-height:250%">line-height:250%</p>
+    <p style="line-height:2em">line-height:2em</p>
+    <p style="line-height:2rem">line-height:2rem</p>
+    <p style="line-height:2vh">line-height:2vh</p>
+    <p style="line-height: 2vw;">line-height:2vw</p>
+
+    
+    </div>
+    <div>
+        <h2>TIPOS DE FUENTES => font-family: fuente1, fuente2,..., fuente_genérica</h2>
+        <ul class="fontTypes">
+            <li id="fontSerif">
+                 Las fuentes Serif tienen un pequeño trazo en los bordes de cada letra. Crean una sensación de formalidad y elegancia.
+            </li>
+            <li id="fontSansSerif">
+                Las fuentes sans-serif tienen líneas limpias (sin pequeños trazos adjuntos). Crean un aspecto moderno y minimalista. Se consideran las más fáciles de leer
+            </li>
+            <li id="fontMono">
+                Fuentes monoespaciadas : aquí todas las letras tienen el mismo ancho fijo. Crean un aspecto mecánico. 
+            </li>            
+            <li id="fontCursive">
+                Las fuentes cursivas imitan la escritura humana.
+            </li>
+            <li id="fontFantasy">
+                LAS FUENTES DE FANTASIA SON FUENTES DECORATIVAS Y DIVERTIDAS.
+            </li>
+            <li id="fontSansSerif">
+                Las fuentes de fantasía son fuentes decorativas y divertidas.
+            </li>
+        </ul>
+    </div>
+    <div>
+        <h2>SERIF vs SANS SERIF</h2>
+        <img src="./Serif-vs-SansSerif.gif" alt="Diferencia visual">
+    </div>
+<div>
+    <h2> FUENTES SEGURAS Y FUENTES ALTERNATIVAS</h2>
+    <p> Las fuentes web seguras son fuentes que se instalan universalmente en todos los navegadores y dispositivos. Existe la posibilidad de que no se encuentre una fuente o no se instale correctamente. Es muy importante utilizar siempre fuentes alternativas.Siempre finalice la lista con un nombre de familia de fuente genérico.</p>
+    <p> p { font-family: Tahoma, Verdana, sans-serif;} </p>
+</div>
+<div>
+   <ul>
+    <li>Arial, Verdana, Tahoma, Trebuchet (sans-serif)</li>
+    <li>Times New Roman, Georgia, Garamond (serif)</li>
+    <li>Courier New (monoespaciado)</li>
+    <li>Brush Script MT (cursiva)</li>
+   </ul>
+</div>
+
+
+
+    <a href="./background-img.html" target="_blank">Background-img</a>
+</body>
+</html>

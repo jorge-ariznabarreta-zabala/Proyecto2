@@ -1,0 +1,58 @@
+body{
+    background-image: url("logo-peñascalf5-blanco.png"); /* The image used */
+    background-color: rgba(255, 172, 144, 0.5); /* Used if the image is unavailable */
+    height: 100px; /* You must set a specified height */
+    background-position: right; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: 340px 200px; /* Resize the background image to cover the entire container */
+    font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.fontTypes {font-size: 16px;}
+#fontSerif {font-family: serif;}
+#fontSansSerif {font-family: sans-serif;}
+#fontMono {font-family: monospace;}
+#fontCursive {
+    font-family: cursive;
+    font-size:26px
+}
+#fontFantasy {
+    font-family: Royal2, fantasy;
+    font-size: 26px;
+}
+.oblicua{font-style: oblique;}
+.cursiva{font-style: italic}
+.hola{    
+        width: 450px;
+        height: 50px;
+        background-color: red;
+        position: relative;
+        animation-name: example;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+        font: 40px impact;
+        padding: 0px;
+        margin:0;
+      }
+      
+      @keyframes example {
+        0%   {background-color:red; left:0px; top:0px;}
+        25%  {background-color:yellow; left:200px; top:0px;}
+        50%  {background-color:blue; left:200px; top:50px;}
+        75%  {background-color:green; left:0px; top:50px;}
+        100% {background-color:red; left:0px; top:0px;}
+      }
+#unidadesAbsolutas15px{
+    font-size: 15px;
+}
+#unidadesRelivasEm{
+    font-size: 2em;
+}
+#unidadesRelivasRem{
+    font-size: 1rem;
+}
+#unidadesRelativasVh{
+    font-size: 10vh
+}
+#unidadesRelativasVw{
+    font-size: 10vw;
+}
