@@ -1,0 +1,55 @@
+* {background-color: none;}
+body {
+    width: 1000px;
+    margin: 40px auto 60px;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    padding-bottom: 4rem;
+}
+
+.box {
+    background-image: none;
+}
+#imgfondo {
+    background-image: url(x-uAcoCc1dKiA-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.box1 {
+    background-image: linear-gradient(red,yellow,blue);
+}
+#orizontal {
+    background-image: url(brandon-griggs-uhLDvDSNjzs-unsplash.jpg);
+    background-repeat: repeat-x;
+    
+}
+
+#fija {
+    background-image: url(diego-ph-fIq0tET6llw-unsplash.jpg);
+    background-attachment: fixed;
+}
+
+#topy {
+    background-image: url(ceyda-ciftci-GGD9KgalPkY-unsplash.jpg);
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: 11rem;
+}
+#cover {
+    background-image: url(niklas-garnholz-CT8JAmljGC0-unsplash.jpg);
+    background-size: cover;
+}
+#contain {
+    background-image: url(niklas-garnholz-CT8JAmljGC0-unsplash.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#multiple {
+    background-image: url(sid-balachandran-_9a-3NO5KJE-unsplash.jpg),url(bob-walker-RI2B9wdlxLA-unsplash.jpg);
+    background-position: top right/*primer imagen*/, bottom left/*segunda imagen*/;
+    background-repeat: no-repeat;
+}

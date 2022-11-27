@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>El elemento FONT</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="https://kit.fontawesome.com/956a5047f3.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -59,23 +62,20 @@
     <div>
         <h2>TIPOS DE FUENTES => font-family: fuente1, fuente2,..., fuente_genérica</h2>
         <ul class="fontTypes">
-            <li id="fontSerif">
+            <li class="fontTypes" id="fontSerif">
                  Las fuentes Serif tienen un pequeño trazo en los bordes de cada letra. Crean una sensación de formalidad y elegancia.
             </li>
-            <li id="fontSansSerif">
+            <li class="fontTypes" id="fontSansSerif">
                 Las fuentes sans-serif tienen líneas limpias (sin pequeños trazos adjuntos). Crean un aspecto moderno y minimalista. Se consideran las más fáciles de leer
             </li>
-            <li id="fontMono">
+            <li class="fontTypes" id="fontMono">
                 Fuentes monoespaciadas : aquí todas las letras tienen el mismo ancho fijo. Crean un aspecto mecánico. 
             </li>            
-            <li id="fontCursive">
+            <li class="fontTypes" id="fontCursive">
                 Las fuentes cursivas imitan la escritura humana.
             </li>
             <li id="fontFantasy">
                 LAS FUENTES DE FANTASIA SON FUENTES DECORATIVAS Y DIVERTIDAS.
-            </li>
-            <li id="fontSansSerif">
-                Las fuentes de fantasía son fuentes decorativas y divertidas.
             </li>
         </ul>
     </div>
@@ -96,9 +96,40 @@
     <li>Brush Script MT (cursiva)</li>
    </ul>
 </div>
-
-
-
-    <a href="./background-img.html" target="_blank">Background-img</a>
+<div><h2>FUENTES & ICONOS ONLINE</h2>
+    <div>
+        <p>Puedes incluir fuentes e iconos de internet a tu página, programa o app.</p>
+        <p>Se trata de incluir el link de Google o FontsAwesome en el apartado HEAD del codigo HTML y llamarlo desde CSS</p>
+        <img src="googleAwesome.png" alt="">
+        <p>Añadiendo a CSS font-family: 'Audiowide'</p>
+        <p style="font-family: 'Audiowide'">Fuente GOOGLE Audiowide</p>
+        <p>Añadiendo a CSS font-family: 'Sofia'</p>
+        <p style="font-family: 'Sofia'">Fuente GOOGLE Sofia</p>
+        <p>Añadiendo a CSS font-family: 'Trirong'</p>
+        <p style="font-family: 'Trirong'">Fuente GOOGLE Trirong</p>
+        <p>Icono de FontsAwesome <br>
+            <i class="fa-solid fa-laptop-code" ></i>
+        </p>
+        <p>Icono de FontsAwesome font size48, color red <br>
+            <i class="fa-solid fa-laptop-code" style='font-size:48px;color:red'></i>
+        </p>
+        <p>Cloud de Google <br>
+            <i class="material-icons">cloud</i>
+        </p>
+        <p>Tamaño 48 <br>
+            <i class="material-icons" style="font-size:48px;">cloud</i>
+        </p>
+        <p>Tamaño y color personalizados <br>
+            <i class="material-icons" style="font-size:60px;color:red;">cloud</i>
+        </p>
+    </div>
+</div>
+<div>
+    <h2>La regla @font-face</h2>
+    <p>Puedes crear "tu propia fuente"</p>
+    <img src="fontface.png" alt="fontface.png">
+    <p class="textoManolo">Estas letras se mostrarán en la fuente "manolo"</p>
+</div>
+<a href="./Gracias.html" target="_blank"><center><strong>YA ACABAMOS</strong></center></a>
 </body>
 </html>

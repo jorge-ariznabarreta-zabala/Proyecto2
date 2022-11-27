@@ -5,224 +5,283 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Background Image</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="Mihai.css" />
   </head>
   <body>
     <header>
-        <section>
-      <div>
-        <h1>Background-image</h1>
+      <section>
         <div>
-          La propiedad CSS background-image establece una o más imágenes de
-          fondo para un elemento. Es posible que, buscando hacer un diseño más
-          avanzado, en lugar de utilizar un color de fondo quieras utilizar
-          imágenes. Para ello, CSS te proporciona la propiedad background-image,
-          con la cuál puedes indicar imágenes de fondo o, como veremos más
-          adelante, incluso gradientes o degradados de varios colores.
+          <h1>Background-image</h1>
+          <div>
+            La propiedad CSS background-image establece una o más imágenes de
+            fondo para un elemento. Es posible que, buscando hacer un diseño más
+            avanzado, en lugar de utilizar un color de fondo quieras utilizar
+            imágenes. Para ello, CSS te proporciona la propiedad
+            background-image, con la cuál puedes indicar imágenes de fondo o,
+            como veremos más adelante, incluso gradientes o degradados de varios
+            colores.
+          </div>
+            <p id="imgfondo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta soluta sunt illo, hic ipsam cumque debitis quo iusto perferendis adipisci doloribus, facere fugit amet dignissimos ex, optio voluptatum expedita quasi rerum nemo esse inventore excepturi! Quae eaque quidem possimus. Eum in doloribus ratione natus laborum labore velit porro, culpa qui ea accusamus sequi maxime alias ducimus dolor totam incidunt, aliquid numquam dolore excepturi placeat itaque? Amet in perspiciatis eaque vero, hic culpa sunt repellat, ducimus enim veniam eum. Sint ab est ratione placeat architecto? Aut, eligendi earum, accusantium qui placeat nihil, et praesentium maiores recusandae dolore commodi? Dolores, corporis? Consequuntur in hic ipsam nostrum, ipsum distinctio dolorem magni eum! Eos asperiores dignissimos quam temporibus, modi tenetur aliquam animi voluptatem maiores repellat sequi tempora eius atque quod repellendus, neque aliquid facilis excepturi veniam? Recusandae ea sit molestias incidunt mollitia enim minus natus. Cum temporibus, nostrum alias eum, sint fugit vitae odio facere ut recusandae explicabo! Et recusandae minima unde ut tenetur magnam pariatur vitae dolorem, qui quisquam quod numquam laboriosam reiciendis autem assumenda accusamus illum vero fugit. Maiores aliquam a culpa dolorem cupiditate ipsam nostrum neque dolor hic repudiandae ut temporibus cum dignissimos, quae blanditiis? Natus laboriosam adipisci soluta quae aspernatur quia? Veritatis totam perferendis nulla voluptatem, assumenda maxime nesciunt eum! Voluptatem cupiditate quas inventore provident, iste illum ea pariatur consequatur similique dolorem atque distinctio aut debitis repellendus at velit magni error ad? Odit sequi, ipsa illum, porro architecto totam ipsam ab nam repellendus pariatur eius suscipit distinctio eveniet praesentium expedita!</p>
+          <br />
+          <div>
+            En el caso de querer utilizar imágenes de fondo, como ya hemos
+            dicho, utilizaremos la propiedad background-image y en el valor, el
+            nombre de la imagen (o la dirección URL donde está alojada), siempre
+            rodeada del texto url().
+          </div>
+          <ul>
+            <li>background-image: none -no utiliza ninguna imagen de fondo</li>
+            <li>
+              background-image url ("image.jpg") - usa la imagen indicada como
+              fondo
+            </li>
+          </ul>
         </div>
-        <br />
-        <div>
-          En el caso de querer utilizar imágenes de fondo, como ya hemos dicho,
-          utilizaremos la propiedad background-image y en el valor, el nombre de
-          la imagen (o la dirección URL donde está alojada), siempre rodeada del
-          texto url().
-        </div>
-        <ul>
-          <li>background-image: none -no utiliza ninguna imagen de fondo</li>
-          <li>
-            background-image url ("image.jpg") - usa la imagen indicada como
-            fondo
-          </li>
-        </ul>
-      </div>
-    </section>
+      </section>
     </header>
     <main>
-        <section>
-    <h2>Gradientes o degrado</h2>
-    <div>
-      La propiedad background-image además de imágenes mediante la función
-      url(), posee un mecanismo interesantísimo que permite establecer
-      gradientes o degradados a partir de código. Esencialmente, existen 3
-      funciones de gradientes:
-    </div>
+      <section>
+        <h2>Gradientes o degrado</h2>
+        <div class="box1">
+          La propiedad background-image además de imágenes mediante la función
+          url(), posee un mecanismo interesantísimo que permite establecer
+          gradientes o degradados a partir de código. Esencialmente, existen 3
+          funciones de gradientes:
+        </div>
 
-    <ul>
-      <li>linear-gradient()</li>
-      <li>radial-gradient()</li>
-      <li>conic-gradient()</li>
-      <a href="https://www.w3schools.com/cssref/playdemo.php?filename=playcss_background-image"target="_blank">DEMO</a>
-    </ul>
-    
-    
+        <ul>
+          <li>linear-gradient()</li>
+          <li>radial-gradient()</li>
+          <li>conic-gradient()</li>
+          <a
+            href="https://www.w3schools.com/cssref/playdemo.php?filename=playcss_background-image"
+            target="_blank"
+            >DEMO</a
+          >
+        </ul>
 
-    <h2>Opciones de imagen de fondo</h2>
-    <div>
-      Una vez establecida una imagen de fondo con background-image, se puede
-      personalizar la forma en la que se mostrará dicha imagen mediante
-      propiedades
-    </div>
+        <h2>Opciones de imagen de fondo</h2>
+        <div>
+          Una vez establecida una imagen de fondo con background-image, se puede
+          personalizar la forma en la que se mostrará dicha imagen mediante
+          propiedades
+        </div>
 
-    <ul>
-      <li>
-        background-repeat - Establece el modo en el que se repite la imagen de
-        fondo.
-      </li>
-      <a href="https://www.w3schools.com/cssref/playdemo.php?filename=playcss_background-repeat"target="_blank">DEMO</a>
-      <li>
-        background-image - Indica si la imagen de fondo permanece fija o se
-        desplaza al hacer scroll.
-      </li>
-      <a href="https://www.w3schools.com/cssref/tryit.php?filename=trycss_background-attachment"target="_blank">DEMO</a>
-      <li>
-        background-position -Establece una posición para la imagen de fondo, de
-        modo que podemos moverla de sitio.
-      </li>
-      <a href="https://www.w3schools.com/cssref/playdemo.php?filename=playcss_background-position"target="_blank">DEMO</a>
-      <li>
-        background-clip -Modo de relleno de la imagen de fondo. (Ver tema de
-        modelo de cajas).
-      </li>
-      <a href="https://www.w3schools.com/cssref/playdemo.php?filename=playcss_background-clip"target="_blank">DEMO</a>
-      <li>
-        background-size - Establece un tamaño diferente a la imagen de fondo.
-      </li>
-      <a href="https://www.w3schools.com/cssref/playdemo.php?filename=playcss_background-size"target="_blank">DEMO</a>
-    </ul>
-</section>
-<section>
-    <h3>La propiedad background-repeat</h3>
-    <br />
-    <div>
-      La propiedad background-repeat especifica si la imagen se repetirá
-      horizontalmente (repeat-x), si se repetirá verticalmente (repeat-y), si lo
-      hará en ambas direcciones (repeat) o en ninguna (no-repeat). Por defecto,
-      si no se indica nada, esta propiedad está ajustada en repeat.
-    </div>
-    <h3>La propiedad background-attachment</h3>
-    <br />
-    <div>
-      La propiedad background-attachment especificará si la imagen de fondo
-      seguirá el desplazamiento del usuario al hacer scroll por la página, es
-      decir, si el usuario al hacer scroll y bajar para ver el contenido de la
-      página, la imagen de fondo de desplazará hacia arriba siguiendo el flujo
-      normal de una página. Este comportamiento se consigue con la opción
-      scroll, que es la que viene establecida por defecto.
-    </div>
-    
-    <ul>
-      <li>scroll Cuando hacemos scroll la imagen de fondo se desplaza.</li>
-      <li>fixed Cuando hacemos scroll, la imagen de fondo permanece fija.</li>
-      <a href="https://www.w3schools.com/cssref/tryit.php?filename=trycss_background-attachment"target="_blank">DEMO - imagen fija</a>
-    </ul>
-    
-    <br />
-    <h3>La propiedad background-position</h3>
-    <br />
-    <div>
-      La propiedad background-position permite desplazar la imagen en la zona
-      especificada en los ejes X e Y. Por defecto, esos valores
-      son 0% 0%, y pueden especificarse tanto con unidades (porcentajes, píxels,
-      etc...) como mediante palabras clave que representan zonas predefinidas
-      (top, left, right, bottom y center).
-      <br>
-      <a href="https://www.w3schools.com/cssref/playdemo.php?filename=playcss_background-position-x"target="_blank">DEMO repeat-x</a>
-      <a href="https://www.w3schools.com/cssref/playdemo.php?filename=playcss_background-position-y"target="_blank">DEMO repeat-y</a>
-    </div>
-    <br />
-    <h3>La propiedad background-clip</h3>
-    <div>
-      La propiedad background-clip establece la forma en la que el color o la
-      imagen de fondo cubrirá el elemento, mientras que la propiedad
-      background-origin intenta posicionar el comienzo de la imagen de fondo,
-      útil con imágenes. La primera utiliza border-box como valor por defecto,
-      mientras que la segunda utiliza padding-box.
-      <br />
-      <br />
-      Ambas propiedades pueden tomar uno de los siguientes valores:
-      <br />
-      padding-box La imagen o color de fondo cubrirá la zona del espaciado y
-      contenido.
-      <br />
-      border-box La imagen o color de fondo cubrirá la zona del borde, espaciado
-      y contenido.
-      <br />
-      content-box La imagen o color de fondo cubrirá sólo la zona del contenido.
-    </div>
-    <br />
-    <h3>La propiedad background-size</h3>
-    <div>
-      Una propiedad muy interesante es background-size, la cuál nos permite dar
-      un tamaño a la imagen de fondo. Podemos ajustar tanto el tamaño de ancho
-      como el de alto.
-      <br />
-      Ten en cuenta que con background-size puedes utilizar los siguientes
-      valores:
-    </div>
+        <ul>
+          <li>
+            background-repeat - Establece el modo en el que se repite la imagen
+            de fondo.
+          </li>
+          <a
+            href="https://www.w3schools.com/cssref/playdemo.php?filename=playcss_background-repeat"
+            target="_blank"
+            >DEMO</a
+          >
+          <li>
+            background-attachement - Indica si la imagen de fondo permanece fija o se
+            desplaza al hacer scroll.
+          </li>
+          <a
+            href="https://www.w3schools.com/cssref/tryit.php?filename=trycss_background-attachment"
+            target="_blank"
+            >DEMO</a
+          >
+          <li>
+            background-position -Establece una posición para la imagen de fondo,
+            de modo que podemos moverla de sitio.
+          </li>
+          <a
+            href="https://www.w3schools.com/cssref/playdemo.php?filename=playcss_background-position"
+            target="_blank"
+            >DEMO</a
+          >
+          <li>
+            background-clip -Modo de relleno de la imagen de fondo. (Ver tema de
+            modelo de cajas).
+          </li>
+          <a
+            href="https://www.w3schools.com/cssref/playdemo.php?filename=playcss_background-clip"
+            target="_blank"
+            >DEMO</a
+          >
+          <li>
+            background-size - Establece un tamaño diferente a la imagen de
+            fondo.
+          </li>
+          <a
+            href="https://www.w3schools.com/cssref/playdemo.php?filename=playcss_background-size"
+            target="_blank"
+            >DEMO</a
+          >
+        </ul>
+      </section>
+      <section>
+        <h3>La propiedad background-repeat</h3>
+        <br />
+        <div>
+          La propiedad background-repeat especifica si la imagen se repetirá
+          horizontalmente (repeat-x), si se repetirá verticalmente (repeat-y),
+          si lo hará en ambas direcciones (repeat) o en ninguna (no-repeat). Por
+          defecto, si no se indica nada, esta propiedad está ajustada en repeat.
+        </div>
+          <p id="orizontal">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et quam veritatis ipsum placeat perspiciatis sint. Atque sint eveniet beatae? Architecto, iste totam deserunt debitis minus nisi soluta sit natus id dolorum tenetur. Distinctio voluptatum quia atque numquam, reiciendis alias excepturi ea aliquid possimus corrupti vel ipsum ad ipsam mollitia voluptates commodi, exercitationem sunt! Tempora quibusdam neque dolore dolorem, officiis nam corporis ipsum rerum odit eum commodi saepe dolor ullam enim earum, optio quae repellat dicta itaque! Nisi aperiam explicabo enim repellendus facilis, tempora voluptatum et minima dolores eos natus. Ipsam architecto cupiditate harum nostrum nobis enim pariatur repellat consequuntur vero doloremque aliquid, sequi rem magnam numquam, officia natus voluptates? Minima ea doloremque eaque neque veniam quasi adipisci esse ex maiores cumque quisquam, fugit, modi, quo optio deleniti amet quam. Quo nesciunt, non dolorum delectus ab error impedit eveniet! Quis culpa odit laborum vero cum voluptate eos odio voluptas iusto nisi veniam inventore corporis, et laudantium velit, modi enim doloribus. Voluptatibus, provident molestias sint quaerat quis voluptatem at vitae aliquid debitis magni, omnis repudiandae, ipsum aliquam ipsa consectetur. Numquam est asperiores fuga reprehenderit dolorum harum autem doloribus error quam eum maxime laudantium beatae facilis quos magni quas, delectus mollitia deleniti nemo deserunt sapiente? Quaerat animi accusantium repellendus, consequuntur officia eius quod doloremque accusamus, eos quis reprehenderit aspernatur sequi quo? Unde harum perspiciatis voluptatibus. Eveniet adipisci omnis, harum atque pariatur fuga facilis perspiciatis consequuntur dolorem. Nam pariatur quibusdam sequi culpa deleniti animi, unde soluta quaerat laudantium veniam voluptate ullam quasi dolor cumque quo reprehenderit dolores, aspernatur in, eos exercitationem saepe vitae mollitia. Delectus quos numquam, soluta tempora blanditiis laudantium minima quod dicta id quae laborum ea aspernatur nobis. Nisi quas necessitatibus suscipit quae expedita possimus similique veniam, aut incidunt, magni repellendus vel ipsam ab, vitae iste dolores voluptatem quidem temporibus consectetur inventore dignissimos optio enim architecto minima. Nulla laborum veniam architecto. Modi nisi doloribus, quae ratione molestias quia unde at itaque voluptatibus. Adipisci provident iusto ad animi quae! Incidunt deserunt rerum id qui officia odio unde, ipsam repellat veniam, eveniet tenetur nostrum tempora nihil voluptatum beatae numquam autem eligendi hic officiis. Odit ipsa officia molestiae voluptas dignissimos voluptate quaerat adipisci sint et aliquam ipsam minima temporibus repellat eos esse consequuntur animi commodi nostrum at architecto unde, possimus, quia illo minus. Veritatis maiores facilis dolores, voluptatum quidem mollitia eius ratione eos reiciendis necessitatibus. Officia aliquam suscipit esse voluptatem placeat repellat autem molestias illum nulla, rem nostrum officiis ex mollitia porro explicabo atque libero est deleniti? Cumque voluptates in unde voluptatum corporis qui neque impedit ipsam ab animi. Aut tempora suscipit beatae ut reprehenderit amet quas quo dolore aperiam rem consequuntur, cumque, quisquam voluptate fuga! Aliquid reprehenderit culpa tempore sapiente voluptates, facilis qui quasi deleniti, molestiae non esse praesentium quia libero cum soluta, aperiam hic a veniam odio omnis accusamus placeat? Quia earum accusamus modi minima sit, vero tempore autem praesentium corrupti voluptatem quidem incidunt sunt assumenda doloribus, totam quos asperiores aut fuga repellendus amet cumque adipisci? Qui, dolorem beatae quasi eos suscipit placeat animi ab reiciendis reprehenderit totam, possimus laborum, voluptatibus quibusdam nobis vitae explicabo nulla magnam! Voluptatem quia, commodi aspernatur, deserunt illum reiciendis modi nihil maiores corporis optio enim vero obcaecati incidunt possimus debitis aliquam, in maxime at aperiam officia. Iste consequuntur doloribus officiis enim dolorum non nobis omnis amet facere esse excepturi earum beatae modi ipsam hic voluptas officia nulla aut, exercitationem fugit ducimus. Dicta inventore iure aliquid. Reiciendis corrupti dignissimos corporis quibusdam accusantium exercitationem ex inventore rem magni. Voluptatum accusantium similique molestiae autem ut consequuntur eveniet iste praesentium dolor adipisci aut, illo perferendis? Fugit ut ad sed assumenda, expedita commodi.</p>        
+        <h3>La propiedad background-attachment</h3>
+        <br />
+        <div>
+          La propiedad background-attachment especificará si la imagen de fondo
+          seguirá el desplazamiento del usuario al hacer scroll por la página,
+          es decir, si el usuario al hacer scroll y bajar para ver el contenido
+          de la página, la imagen de fondo de desplazará hacia arriba siguiendo
+          el flujo normal de una página. Este comportamiento se consigue con la
+          opción scroll, que es la que viene establecida por defecto.
+        </div>
 
-    <ul>
-      <li>
-        auto - No escala la imagen. Utiliza el tamaño original. Es el valor por
-        defecto.
-      </li>
-      <li>
-        unidad - Indicamos el tamaño específico que queremos usar (píxels o
-        porcentaje, por ej.).
-      </li>
-      <li>
-        cover - Escala el ancho de la imagen de fondo al ancho del elemento.
-      </li>
-    </ul>
-</section>
-<section>
-    <h2>Fondos multiples</h2>
-    <div>
-      Hasta ahora, hemos trabajado con CSS para establecer un sólo fondo
-      mediante la propiedad background-image. Sin embargo, CSS permite
-      establecer múltiples fondos separando por comas: background-image:
-      url(imagen1),url(imagen2), ...
-    </div>
-    <div>
-      Hay que tener en cuenta que la primera imagen establecida es la que
-      permanecerá al frente, la siguiente imagen añadida aparecerá detrás de la
-      primera y así con todas las imágenes que se vayan indicando.
-    </div>
-    <h2>Atajo: background</h2>
-    <div>
-      Es posible establecer todas estas propiedades anteriores en una sola regla
-      de CSS a modo de atajo, y así ahorrar mucho espacio en escribir las
-      propiedades anteriores por separado. Si alguno de los valores no
-      necesitamos indicarlo, simplemente lo omitimos.
-      <br />
-      <br />
-      El atajo se construye con la propiedad background y sigue la siguiente
-      estructura:
-      <br />
-      <br />
-      background / color image position /size repeat attachement origin clip
-      <br />
-      <br />
-      Ten en cuenta que el parámetro / es opcional. De indicar el carácter /, la
-      propiedad background se esperará el valor background-size a continuación.
-      Veamos varios ejemplos del uso de la propiedad background:
-      <br />
-      <br />
-      .element {
-      <br />
-      /* Atajo simple */ background: #fff url(imagen.jpg) top center repeat-x;
-      <br />
-      /* Atajo completo */
-      <br />
-      background: deeppink url(imagen.jpg) 0 0 / 150px space scroll padding-box
-      padding- box;
-      <br />
-      /* Atajo múltiple */ background:
-      <br />
-      url(primer-plano.jpg) center center / cover, deeppink url(imagen.jpg) 0 0
-      / 150px space scroll padding-box padding-box; }
-    </div>
-</section>
-</main>
-<a href="./font.html" target="_blank"><button>Fuentes</button></a>
+        <ul>
+          <li>scroll Cuando hacemos scroll la imagen de fondo se desplaza.</li>
+          <li>
+            fixed Cuando hacemos scroll, la imagen de fondo permanece fija.
+          </li>
+          <a
+            href="https://www.w3schools.com/cssref/tryit.php?filename=trycss_background-attachment"
+            target="_blank"
+            >DEMO - imagen fija</a
+          >
+        </ul>
+            <p id="fija">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis accusamus velit debitis, sapiente temporibus vel repellat tempora enim, placeat consequuntur aperiam, ipsa magnam! Porro enim nam dolor, amet dolorum esse? Ut non reiciendis repudiandae veniam! Repudiandae molestiae facilis quae, optio quo, voluptates quidem tempore aliquam adipisci nostrum natus repellat. Ut voluptas maiores illo, quam atque quibusdam optio iusto iste provident reprehenderit quos voluptatum neque porro cumque, ab inventore doloremque deserunt dolores at amet sed officia architecto modi ad. Laborum, quas consequatur dolores quia molestias tempora ratione aut facilis, minus fugit illo assumenda alias! Iure porro laborum distinctio dolorem ullam natus, quod minima maiores voluptas. Voluptatem iste, itaque eveniet velit similique dolore nihil, soluta perferendis provident vel minima maxime fugit quos molestiae minus. Magni asperiores numquam earum sint distinctio dignissimos velit ullam, nemo odio mollitia, sed, architecto qui adipisci id. Laboriosam necessitatibus, quas odio atque error quis assumenda. Officia odit repellendus est dicta perferendis quasi libero maiores quam, atque exercitationem fuga culpa velit quia ducimus voluptatibus officiis obcaecati saepe voluptate ipsum amet commodi dolores sed vitae cupiditate! Assumenda rerum, tenetur magni et, consequuntur molestiae dolorum officiis recusandae nobis, est veritatis dolor. Esse iusto labore recusandae, ratione dolor cum eaque incidunt, eius saepe amet voluptatem exercitationem omnis ab inventore quos illo molestias ipsum excepturi eos sequi quas, modi corporis! Reiciendis, vel eius quae nisi porro consequatur sunt culpa hic vitae repellat pariatur. Eos at architecto nostrum delectus a quo voluptas facere! Possimus ipsam neque exercitationem facere inventore! Iusto qui voluptatum blanditiis. Iure praesentium nostrum voluptas dolor, illo pariatur laudantium quos itaque culpa minima quidem error ab nemo ex asperiores dicta aperiam? Fugit, ducimus? Sint sapiente libero nisi dicta, voluptates dolores molestias veniam fuga dignissimos incidunt quos facilis optio, nemo aut quibusdam sed reprehenderit dolore tempora? Ipsum exercitationem cumque non laborum fugiat quia sunt, in ducimus nesciunt harum expedita sint corrupti nulla dicta! Odit ullam dolore, nulla sapiente nostrum velit corporis eaque sed beatae labore id a ea neque. Suscipit, laboriosam, necessitatibus ex voluptatem sapiente at alias neque ea veniam magni veritatis aliquid ratione sed facilis nisi consequatur iste non dignissimos doloremque accusantium laborum. Maiores minima, eos sit nobis fugit saepe ex. Neque quo architecto nisi ut possimus labore quibusdam at minima rem odit fugiat inventore nobis, voluptas ratione ex magnam recusandae dolores debitis sapiente officiis distinctio blanditiis. Ullam dignissimos dolorum saepe, debitis quas minus magni architecto at nam quidem perspiciatis mollitia beatae et illum exercitationem vero? Dicta minus nemo deleniti voluptatum, nihil facere facilis. Facere provident quam quasi necessitatibus obcaecati dolorum itaque dolores est accusamus eos accusantium ea, tenetur consequuntur cum eaque excepturi similique reiciendis fugit laboriosam rem deleniti, nostrum id! Enim saepe vel voluptatibus, id, alias autem nulla ea rem natus modi, minima aliquid? Asperiores ut quasi, ipsam fugit eveniet totam quia rem, expedita, quaerat accusamus soluta quos iste accusantium aspernatur! Atque, cum exercitationem. Reprehenderit, hic. Labore tenetur vel aut ducimus non rem ipsum excepturi sit, illum, at laborum commodi! Aliquid, id. Magnam voluptate id voluptatibus aliquid corrupti alias blanditiis laborum libero esse quibusdam illo doloribus saepe perferendis cupiditate quidem eum ipsum consequatur, impedit nostrum animi fugiat atque soluta minus? Error quis, minus, illum beatae consequuntur obcaecati quidem ab voluptas eius minima perspiciatis iusto. Voluptates totam deleniti nostrum aliquid obcaecati animi expedita magnam natus nisi eveniet fugit voluptatum, eum explicabo esse ullam repudiandae earum recusandae iste aperiam ratione! Necessitatibus nemo earum voluptatum omnis. Laudantium quaerat ex sed asperiores, debitis in harum, ipsum, qui quod placeat suscipit iste. Amet quidem sapiente animi. Ea odit aliquid neque, exercitationem temporibus aspernatur? Alias voluptas recusandae quas, ut eum labore! Architecto voluptatibus illo id eos, pariatur ea tenetur cum, voluptatem, beatae voluptate molestias dolorum eveniet itaque? Assumenda cupiditate quam animi id reprehenderit architecto est consectetur, dolorem fugit culpa eligendi voluptas accusamus, ab, nobis quisquam. Iure culpa, quo reprehenderit ipsum perferendis numquam voluptates cupiditate tempora eveniet nesciunt? Sint harum unde molestiae, vel officiis minima ea, dicta voluptatum veniam itaque et facilis enim eveniet quidem, tenetur nostrum aspernatur praesentium expedita nesciunt ut corporis exercitationem? Incidunt unde quam architecto quibusdam nihil dolor harum velit atque eveniet repellat. Sequi deserunt possimus ipsum, ab commodi tempore reiciendis ut, dolorem libero aperiam voluptate, ullam modi iste? Veritatis optio nam ipsa, quaerat eligendi suscipit quibusdam fuga voluptatum saepe eos quam fugit, voluptas hic porro. Consequuntur eligendi odio reiciendis debitis autem, sapiente commodi odit provident illo error est tempore officiis numquam sunt, quisquam nulla recusandae rerum vel eaque beatae. Facere similique reiciendis pariatur culpa dolorum itaque praesentium, ea eaque deleniti? Asperiores labore fuga voluptatum eligendi minima, necessitatibus odit ipsam cum provident libero optio adipisci dignissimos ratione. Earum hic harum officia nesciunt repellat aperiam sed reiciendis, iure quas, nulla praesentium accusantium reprehenderit labore eius, nam rem ut molestiae enim deleniti. Iure numquam obcaecati temporibus animi reprehenderit explicabo nemo, ut eligendi eaque vitae sint nesciunt aspernatur illo commodi consectetur beatae aliquam possimus expedita omnis earum, nobis accusantium. Molestias eius velit dolore non ea facere aspernatur delectus omnis voluptas a animi id nemo sit blanditiis cupiditate dolorum atque cumque neque assumenda, ab minima quas rem odit? Earum, ut. Mollitia deserunt aliquam, dolores enim voluptas ipsum, accusantium ipsa dicta delectus odio ex, sed esse! Architecto provident eligendi laudantium quasi aut sed, repellendus esse! Accusantium rerum aspernatur quibusdam eum laborum sequi sunt voluptatem accusamus ipsa distinctio nulla illo, magnam aut fuga, dolore laboriosam deleniti fugit error expedita dicta porro? Iure, sit minima atque quisquam, cumque quasi nemo asperiores neque voluptate nihil harum nulla vero dignissimos? Dolor est officiis dolorem id dolorum adipisci facere voluptatem magnam consectetur possimus numquam tempore, veritatis saepe sed doloribus autem minus architecto corrupti voluptas ad distinctio quae nemo eligendi perspiciatis. Quos quia quae minus sunt commodi perspiciatis dolor non magni. Enim similique quis aliquid, porro voluptas, rem omnis deserunt error aperiam nam unde maiores, fuga et quas iure distinctio maxime praesentium. Corporis, ipsa iure! Maxime accusamus eligendi assumenda laudantium necessitatibus cum ipsum, adipisci, aliquid ea deserunt aliquam officia libero, maiores quidem excepturi nesciunt fugiat quibusdam iusto quasi corrupti ullam corporis consequuntur? Nostrum reiciendis et non, obcaecati vitae facilis dolorum accusamus dignissimos. Eos delectus natus corporis, id iusto pariatur deserunt ducimus consequatur ex numquam optio labore deleniti quas quos ipsum expedita minima, et veritatis nostrum placeat doloribus dolorum facere rem voluptatum. Culpa harum exercitationem in aperiam deleniti! Provident delectus magni incidunt, officia quis qui harum fugit labore quasi iste? Provident, laborum nihil consectetur culpa voluptatibus tenetur maxime nesciunt repudiandae fugiat voluptates voluptas esse ducimus repellendus veritatis dolorum suscipit molestiae nostrum at excepturi nulla cumque! Eveniet, est veritatis. Amet alias eius sit quia qui omnis? Reiciendis maxime ducimus hic pariatur dolores sapiente cum enim quibusdam molestias unde impedit, iure voluptatibus natus libero incidunt consequatur, harum aut alias sit quae veniam nemo est, at similique! Rem error quibusdam, beatae rerum odio velit est eveniet quidem totam enim quam quo quia iusto unde reiciendis necessitatibus autem officiis illum reprehenderit. Voluptatibus quibusdam mollitia earum, debitis quaerat blanditiis, officiis quos veritatis ratione aspernatur hic in ex repellendus amet totam odio error fugiat delectus, libero molestias. Aliquid minus repellat facilis, sapiente laborum dolorum nesciunt earum soluta quidem voluptatum, officiis reprehenderit excepturi inventore recusandae harum nemo, iure voluptates illum. Nisi, nostrum nulla ea odio aliquid labore corporis non laudantium omnis, optio ipsa debitis.</p>
+
+        <br />
+        <h3>La propiedad background-position</h3>
+        <br />
+        <div>
+          La propiedad background-position permite desplazar la imagen en la
+          zona especificada en los ejes X e Y. Por defecto, esos valores son 0%
+          0%, y pueden especificarse tanto con unidades (porcentajes, píxels,
+          etc...) como mediante palabras clave que representan zonas
+          predefinidas (top, left, right, bottom y center).
+          <br />
+          <a
+            href="https://www.w3schools.com/cssref/playdemo.php?filename=playcss_background-position-x"
+            target="_blank"
+            >DEMO repeat-x</a
+          >
+          <a
+            href="https://www.w3schools.com/cssref/playdemo.php?filename=playcss_background-position-y"
+            target="_blank"
+            >DEMO repeat-y</a
+          >
+            <p id="topy">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi tempore ipsa sapiente. Aliquid ullam nemo exercitationem accusantium illo. Sapiente placeat, repellendus, asperiores ullam qui veritatis iure optio officiis consectetur omnis sint reiciendis veniam minus. Quos minima rerum quisquam accusantium aperiam blanditiis facere eius, tenetur corporis culpa quasi exercitationem eum numquam molestiae sed veniam, officia porro iste, consequatur asperiores officiis! Earum atque ratione, asperiores deserunt placeat dicta temporibus. Numquam fugit voluptas necessitatibus illum fuga provident. Error sed tenetur et corrupti asperiores quos quibusdam totam commodi eius dolores, quo incidunt quia fugiat doloremque non blanditiis perspiciatis harum maiores alias laborum aut. Mollitia quibusdam sequi reiciendis ut ducimus nesciunt tenetur tempore optio! Quasi iure autem quisquam porro placeat ducimus quidem fugit, officiis non alias eius quis ad nostrum vitae neque magnam magni officia eligendi, voluptatum, nihil tempore atque tenetur. Ipsum qui autem voluptates amet, officiis eligendi perferendis eos dignissimos excepturi veniam. Iure dolor officiis repellat aperiam sint placeat cum totam, natus aliquid repellendus amet qui corporis eveniet consequatur beatae eos, impedit ex accusamus at omnis quo assumenda fuga. Sint et minus saepe doloribus pariatur est explicabo, animi quam eaque ipsam fuga repudiandae veniam voluptatem quasi at iste quo dolorum, quaerat doloremque commodi nemo tempora impedit aperiam neque. Quaerat ipsum nemo sint aliquid porro vel esse doloribus eaque placeat, officia facere voluptatum cum repudiandae. Voluptatum corporis magnam accusantium laborum perspiciatis officiis omnis minima voluptas reiciendis corrupti commodi non vel, fugit explicabo optio distinctio iure illo ea quod eveniet, porro accusamus nostrum molestias ex. Aspernatur, ipsum, perspiciatis soluta debitis perferendis aperiam consequuntur veniam aliquid doloribus, quaerat laudantium dicta maxime rem officia cum cupiditate minima neque assumenda quibusdam necessitatibus ut minus officiis tempora? Excepturi sit rerum consequatur perspiciatis adipisci facilis! Id, autem? Ad, placeat similique. Quos architecto exercitationem distinctio dolores? Ad eveniet nam sit vero quam obcaecati quidem earum culpa necessitatibus? Fugit, quas cumque laboriosam doloribus aliquam nulla quam architecto facere dolorem itaque alias! Corrupti commodi rerum incidunt delectus dicta optio assumenda doloribus sed, quia fugiat facilis veniam distinctio magnam provident fugit quod repudiandae at ut minima blanditiis nobis ex! Ad minima veritatis, quaerat aut blanditiis mollitia nihil vero, quos veniam reprehenderit voluptas. Dolorum minima quam ut at earum commodi. Quae quos non reiciendis quis accusamus voluptas qui, explicabo quas modi. Sequi necessitatibus obcaecati error incidunt. Officiis, deleniti quia accusamus praesentium at possimus repellat corrupti excepturi minima itaque necessitatibus temporibus vero quas incidunt tenetur laboriosam tempora delectus soluta voluptas. Aliquid animi veniam error eligendi. Aspernatur illo labore molestias tempora quisquam neque illum, nihil mollitia, cum iure numquam nam autem amet at officia! Minus voluptate exercitationem eaque praesentium tempore facere quam dicta maxime veritatis perferendis unde aspernatur culpa cum, natus fugit nisi doloremque, fuga dignissimos provident aliquid dolor. Atque pariatur ut doloribus repellendus, soluta libero, officiis sint similique, recusandae molestias itaque facere dicta commodi! Odio id quaerat eaque vel, aut repellendus corporis eum minima repellat dignissimos voluptatem, facere voluptates quis. Harum, quia architecto asperiores similique perferendis fuga? Adipisci, aspernatur placeat consectetur esse modi assumenda totam, sunt quae animi, maxime temporibus. Minima deleniti maxime, sapiente iste nulla facilis! Ex libero ab ipsum quaerat accusamus, quam aperiam eum. Ratione dolores ipsum sapiente. Deserunt quis distinctio reiciendis optio excepturi! Itaque eius earum adipisci accusamus ratione nesciunt, blanditiis, sed atque deserunt quibusdam ab, perferendis explicabo magnam nulla nobis voluptatem ut dolore doloremque nemo? Laboriosam porro sint quam exercitationem molestias unde obcaecati nihil, et distinctio sed blanditiis quidem debitis mollitia dolorem ab doloremque cum excepturi consequatur ut tenetur rerum fugiat iure incidunt fuga? Maiores nostrum consequuntur exercitationem sunt sequi. Laborum beatae, illo porro eius nobis aut cum non? Laborum, animi. Voluptatum, assumenda?</p>
+        </div>
+        <br />
+        <h3>La propiedad background-clip</h3>
+        <div>
+          La propiedad background-clip establece la forma en la que el color o
+          la imagen de fondo cubrirá el elemento, mientras que la propiedad
+          background-origin intenta posicionar el comienzo de la imagen de
+          fondo, útil con imágenes. La primera utiliza border-box como valor por
+          defecto, mientras que la segunda utiliza padding-box.
+          <br />
+          <br />
+          Ambas propiedades pueden tomar uno de los siguientes valores:
+          <br />
+          padding-box La imagen o color de fondo cubrirá la zona del espaciado y
+          contenido.
+          <br />
+          border-box La imagen o color de fondo cubrirá la zona del borde,
+          espaciado y contenido.
+          <br />
+          content-box La imagen o color de fondo cubrirá sólo la zona del
+          contenido.
+          <br>
+          <a
+            href="https://www.w3schools.com/cssref/playdemo.php?filename=playcss_background-clip"
+            target="_blank"
+            >DEMO</a
+          >
+        </div>
+          
+        <br />
+        <h3>La propiedad background-size</h3>
+        <div>
+          Una propiedad muy interesante es background-size, la cuál nos permite
+          dar un tamaño a la imagen de fondo. Podemos ajustar tanto el tamaño de
+          ancho como el de alto.
+          <br />
+          Ten en cuenta que con background-size puedes utilizar los siguientes
+          valores:
+        </div>
+          
+        <ul>
+          <li>
+            auto - No escala la imagen. Utiliza el tamaño original. Es el valor
+            por defecto.
+          </li>
+          <li>
+            unidad - Indicamos el tamaño específico que queremos usar (píxels o
+            porcentaje, por ej.).
+          </li>
+          <li>
+            cover - Escala el ancho de la imagen de fondo al ancho del elemento.
+          </li>
+          <li>
+            contain
+          </li>
+        </ul>
+          <p id="cover">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, dicta! Nihil eaque voluptatum nulla praesentium. Dicta, animi incidunt quas corrupti reprehenderit cupiditate numquam quidem, amet reiciendis dignissimos consectetur mollitia praesentium esse rem id unde modi cum nulla ab, deleniti odit expedita? Nisi ab debitis recusandae modi facilis necessitatibus dolore amet. Iusto modi non omnis animi. Natus officiis esse nemo aliquid ducimus beatae rerum ex. Repudiandae officia vitae illum nam quam, hic cum minus. Quae minima ea aperiam voluptas! Nam praesentium vero eligendi eaque libero pariatur enim? Ipsum totam soluta molestias modi, sint blanditiis molestiae labore amet culpa consectetur vitae quidem corporis impedit rem odio, velit explicabo! Voluptatum expedita odio omnis sit non molestias sed neque dicta quo quos, dolorum odit voluptates quasi, pariatur sunt iure commodi. Perferendis eos vel deserunt laborum molestias ipsum nam quam ea culpa delectus id praesentium sed itaque dolore quia, at veniam enim, odio accusamus aspernatur repudiandae quos inventore officia! A incidunt eum, aperiam sit beatae optio fuga architecto suscipit expedita, aut ratione maiores vitae nisi veritatis blanditiis non nulla corrupti. Minus sequi in sunt vel, accusamus ipsum aut saepe sint, quaerat error repellendus numquam aperiam! Quisquam hic odio enim sit reprehenderit earum accusamus qui facere recusandae? Nihil veniam repellendus natus quod facere exercitationem, molestiae doloremque vel maxime deleniti molestias totam! Modi, magni commodi nihil rerum quidem reprehenderit sapiente officia eligendi necessitatibus, dolorem sunt eos voluptates, incidunt optio enim quos consequuntur quis eum. Facilis, quaerat. Accusamus optio, earum, reprehenderit itaque quod reiciendis non neque excepturi fugit dolores dignissimos. Molestiae autem unde at doloremque quaerat velit repellat voluptatem fuga optio accusantium illum vel ex veniam inventore, neque quam aspernatur ea esse, incidunt adipisci aliquid sapiente blanditiis. Harum saepe soluta porro unde possimus quas inventore fugit quod obcaecati est itaque beatae hic neque nesciunt ab, nam velit laborum iure reprehenderit consequatur expedita? Sequi et laudantium dolorem enim dolores obcaecati porro quibusdam, modi velit saepe, quae reiciendis quo eveniet necessitatibus repellat, dignissimos voluptatem mollitia suscipit aperiam quos similique dolor. Reiciendis assumenda non nam nesciunt illo earum consequatur quisquam id necessitatibus nemo blanditiis minus, quasi, itaque, sequi modi cum. Eos quae voluptatem, ullam rerum dolorem reiciendis beatae nulla neque fuga. Veritatis labore ea rerum laborum est adipisci consectetur neque nobis quasi. Voluptas, distinctio aut laudantium facere perspiciatis ut numquam nihil iusto est dolorum illo ipsam iste reprehenderit eos amet esse nisi fuga nobis molestiae consectetur quisquam dicta, nam dolore excepturi! Aliquid totam voluptate necessitatibus incidunt laboriosam asperiores, aspernatur odit adipisci rerum accusamus debitis, neque eos beatae unde cum amet, recusandae blanditiis repellendus deserunt animi maxime! Suscipit maiores quo, eum perferendis qui voluptatibus earum quam ipsa, doloremque recusandae molestias? Eveniet repellat sed hic natus deleniti sunt tempora, minima nemo obcaecati, saepe vero sapiente possimus, nulla dolorum molestias ipsam. Illo distinctio illum repudiandae rem dolores, maxime eveniet, natus aperiam aut animi deserunt. Totam consequuntur minus sit a minima facilis voluptates. Praesentium minus omnis reprehenderit accusantium maxime odit voluptatem excepturi labore facilis? Dicta vitae reiciendis id officiis, molestiae excepturi ipsam perspiciatis vero consectetur.</p>
+          <p id="contain">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi iure officiis aut laborum. Nostrum velit, maxime corporis pariatur aperiam rem fugit omnis non provident, explicabo cupiditate voluptatibus nulla, quisquam quas atque reprehenderit autem debitis numquam! Dolores, obcaecati nesciunt? Odio sint laboriosam esse dolorum perferendis. Minus eius assumenda autem, minima quae quam voluptatem error expedita libero repellendus sed eaque incidunt? Eaque fugit vel error repellat minus necessitatibus deleniti pariatur eum aperiam reiciendis eos ipsa aliquid iste quisquam tempora dolores aspernatur similique eveniet sapiente, nulla incidunt magnam quas sint impedit? Expedita, eius. Blanditiis neque atque modi quas voluptatum? Nemo quos saepe possimus quae explicabo aliquid iusto sed hic? Facere distinctio, consequatur, quos voluptate aspernatur similique minima nam, corporis rem non blanditiis! Quibusdam, iusto! Doloribus quas at cum accusamus minima tempora facilis, provident inventore quae iure earum explicabo perspiciatis, voluptatem cupiditate, doloremque repudiandae reprehenderit recusandae ipsa rerum. Sint provident ducimus, iste rem animi saepe voluptas minima, incidunt quisquam impedit voluptates voluptatum nisi inventore enim labore, praesentium dolores nobis nihil voluptatibus explicabo. Libero, quos cupiditate quibusdam corporis error nisi dignissimos eos officia molestias rerum impedit explicabo, magnam voluptas sit maiores deserunt illum optio veniam? Reprehenderit fugiat, fuga voluptas porro molestias corrupti ducimus hic iusto atque nam commodi doloremque tempora esse ipsa amet nulla adipisci veniam maiores quis eum nihil! Eos vitae, repudiandae sequi excepturi optio veniam ipsam eius quia? Temporibus veniam impedit et sequi distinctio, vero quasi sapiente debitis neque? Atque, ab molestiae hic impedit quibusdam ut sit. Ut ducimus fugit, assumenda ipsum praesentium quis vitae rerum mollitia deserunt ea similique incidunt qui hic, corrupti, beatae quo modi provident dolores aut. Obcaecati laudantium similique rerum vero dolorem, deserunt dignissimos nobis accusantium magni expedita praesentium, rem distinctio animi, eos deleniti quod beatae unde ullam debitis provident fuga esse. Porro, enim molestias! Cum ullam quae dolor, voluptatem tempora a impedit maxime ipsa porro et! Reprehenderit mollitia asperiores amet ratione tempore dolorum. Odit quidem, eius autem obcaecati deserunt ratione doloremque aut neque omnis vero nemo soluta consequuntur alias eligendi debitis corporis sed ipsam placeat totam blanditiis excepturi ad! Quam cumque quod odio provident laboriosam consectetur, atque quae similique? Qui facere a molestiae dolor id, iusto exercitationem quasi ipsam rem, magnam eius ex laudantium sequi in nisi, temporibus quod? Id molestiae ut quo enim esse dolore praesentium quam quos reiciendis, eveniet eligendi cum inventore vero voluptas provident? Dicta consequuntur aliquam minus, fuga reiciendis ad quo voluptas repudiandae, praesentium debitis, nostrum quas voluptate harum laudantium recusandae modi. Quasi eius iusto vero, sunt amet blanditiis quae obcaecati numquam quaerat magnam eum. Veniam molestias architecto quis, sint nostrum error cumque obcaecati ad, delectus necessitatibus, quaerat maxime magnam fugiat sunt laborum eum omnis facilis. Sapiente at nam repudiandae maxime blanditiis eaque voluptatum tenetur ex vero velit enim, nesciunt, vitae modi voluptatibus quis architecto accusamus nobis quia placeat dolor iste! Harum et earum doloremque magni quis quidem iste, enim, ipsum repudiandae tempore magnam, esse sed reiciendis inventore! Blanditiis expedita quo nemo ipsum minus? Repellendus debitis molestias earum provident omnis adipisci et, iste alias!</p>
+      </section>
+      <section>
+        <h2>Fondos multiples</h2>
+        <div>
+          Hasta ahora, hemos trabajado con CSS para establecer un sólo fondo
+          mediante la propiedad background-image. Sin embargo, CSS permite
+          establecer múltiples fondos separando por comas: background-image:
+          url(imagen1),url(imagen2), ...
+        </div>
+          <div>
+          Hay que tener en cuenta que la primera imagen establecida es la que
+          permanecerá al frente, la siguiente imagen añadida aparecerá detrás de
+          la primera y así con todas las imágenes que se vayan indicando.
+        </div>
+          <p id="multiple">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam architecto est rem fugit nemo cumque, aspernatur iure maiores. Hic dolore doloribus possimus ab fugiat, molestias velit ipsum sapiente ullam odit, voluptatem animi dolores laborum a, nesciunt est magni esse atque vitae explicabo nulla repellat ex. Aliquid ipsa cum quod maxime illum blanditiis dolorem asperiores veniam est beatae labore atque adipisci fugiat odio ratione saepe impedit nemo magnam, consectetur quaerat. Tempora cumque voluptatem nihil quibusdam officia, ullam hic quaerat quidem vitae excepturi animi earum, dolorum iure doloremque illum ipsa asperiores, culpa voluptate possimus saepe nisi veritatis nam. Aut sunt earum veritatis alias animi itaque rerum optio recusandae, doloremque ea excepturi tempora sit iste asperiores numquam molestias perspiciatis delectus. Cumque quo corporis nemo atque necessitatibus dolorem nulla veniam itaque eligendi facilis veritatis tempora, architecto est voluptas, suscipit natus provident beatae explicabo commodi molestias et debitis voluptatum velit sint! Nulla distinctio quod error maiores, accusantium porro dignissimos unde, mollitia necessitatibus ratione autem dolorem doloremque natus, a officiis ipsam quas itaque harum dolorum ab libero. Expedita odio rerum similique dolores cupiditate reiciendis asperiores nam eos repellat architecto suscipit ipsam inventore, culpa at repudiandae nihil, earum quam. Eum mollitia odio, rem dolorum dolor autem similique velit nam quam non nesciunt dicta repellat ad aut, delectus numquam eius natus, architecto odit at dolorem veritatis. Aspernatur sapiente reiciendis dolorum assumenda ad tempore sit voluptatem, vitae minus nostrum iusto? Tempore doloremque nostrum magnam. Nihil cumque expedita nostrum soluta harum eos ducimus, possimus est enim. Laboriosam vel blanditiis adipisci soluta asperiores non quaerat nostrum accusantium necessitatibus similique quis cumque ullam ad eligendi facere ratione quae officiis repellat libero esse excepturi, nesciunt eius dolore eum? Iste libero molestias obcaecati quidem laudantium molestiae error unde, accusantium aliquam consequatur perspiciatis impedit nobis numquam deserunt. Suscipit neque error, iusto explicabo corporis est. Ut sit, amet officiis eaque illum aliquid debitis, ea repudiandae accusantium illo suscipit ad nihil iusto omnis veniam molestias porro. Quas, asperiores veniam odio dolorem culpa numquam aperiam. Itaque ut nihil deleniti distinctio quam architecto quod aliquam doloremque porro modi iste impedit, officiis quia est accusamus iusto corporis explicabo ducimus eligendi harum tenetur. Nostrum exercitationem itaque magnam fugiat. Sequi asperiores aspernatur similique. Voluptates doloremque esse saepe, quos quia exercitationem labore amet facere, suscipit odit totam. Voluptates aliquid quia nam, quisquam enim facere aut quis ea harum fugit velit! Facilis, ducimus, delectus debitis facere magni illo et aliquid reprehenderit saepe quis laudantium harum non porro dolorem? Non magnam nisi suscipit eum recusandae error corporis asperiores iure? Harum fugit consequatur, minima repellat dolores vero cupiditate delectus quod ratione facilis earum tempora recusandae numquam rem eligendi. Ullam dicta laboriosam repellendus? Ipsa est nemo explicabo assumenda sunt! Itaque est, et consectetur nemo nostrum, accusamus, dolorem voluptas aliquid repellat iste iure earum debitis aperiam eligendi eveniet! Id fugiat, autem corporis ducimus quas tenetur libero velit omnis odit obcaecati fuga nulla iste vel debitis accusantium assumenda natus placeat deserunt, impedit eum architecto reiciendis? Molestias libero, praesentium sapiente dolorem eaque iste sed quod repudiandae ab nobis! Veniam sed voluptatibus itaque iure delectus ex cumque, quasi accusamus distinctio error sit harum voluptates, sapiente maiores, eum alias. Illum tempore itaque iste quod porro, praesentium facilis id quidem vero neque ea minus dolore libero labore ipsam facere excepturi molestias iure eos, blanditiis, odio sequi dignissimos fugit nesciunt. Assumenda praesentium pariatur tenetur sequi sit, dolore, totam fugiat temporibus alias error consequuntur atque quasi, sunt reprehenderit architecto? Qui, in temporibus numquam quidem nulla voluptatem. Numquam corrupti laudantium, voluptas accusantium vel harum tempora doloribus iure praesentium asperiores, nulla alias quis a obcaecati id in earum nemo, nam culpa pariatur totam. Facilis fugit iure obcaecati ut excepturi, reprehenderit omnis nostrum dolorem ad quam deleniti dicta voluptates totam explicabo aut repudiandae magni tempora, ipsa molestias rerum ipsum cum beatae neque. Quae iure quaerat cum animi totam, neque alias deserunt earum velit, eaque labore nisi accusantium fugiat error molestiae? Vero, facilis deleniti praesentium asperiores tempore, reiciendis suscipit numquam fuga qui cumque voluptatum quidem accusamus iste officiis amet dolore dolor ex dignissimos voluptas quisquam. Excepturi alias temporibus, corrupti aperiam laudantium cumque nisi quisquam molestias unde. Nobis quas, exercitationem atque numquam deleniti a magnam eos eaque corporis. Quos laudantium ipsa dignissimos tenetur provident magnam quisquam voluptatem aperiam alias? Perspiciatis quia consequuntur quos alias aliquid quisquam, quaerat aliquam temporibus. Est, eum perferendis nostrum, repellendus dicta cupiditate sint necessitatibus quia voluptatem accusamus maiores vitae quis? Repellendus cupiditate praesentium soluta omnis, perferendis aperiam iusto. Explicabo corrupti dolorum minima nam reiciendis rerum nesciunt magni voluptatem cupiditate, eius facere laboriosam inventore iste quia. Architecto vero ea corrupti qui optio odit incidunt voluptatum fugit impedit error, natus quidem laboriosam quos nam earum ab corporis placeat, aliquam necessitatibus! Voluptatum vitae neque distinctio at consectetur mollitia exercitationem, harum laborum corporis iure animi quidem aperiam ratione recusandae, nihil ipsum. Ex eveniet quod aut, ea laudantium laborum architecto vero veniam, odit deleniti harum omnis! Impedit libero error omnis nesciunt doloribus fugit. Minima molestiae omnis, esse minus corrupti aliquid inventore. Ducimus, numquam, quam voluptas fugit quod esse facere qui cum quo quidem optio distinctio sint incidunt officiis soluta iure aliquam, at amet id corrupti! Mollitia exercitationem corrupti quos velit, ea porro accusamus voluptatem! Laborum eos, minus possimus nemo doloremque sit omnis ab velit iure mollitia voluptatem dolorem, asperiores, error explicabo quam fugiat consectetur et? Ratione dolor doloremque quaerat libero reiciendis earum minus fuga natus ea veritatis quos adipisci, quam possimus qui neque, velit nemo placeat enim inventore atque quasi. Quo recusandae nisi, veritatis earum alias commodi ut impedit sequi. Dignissimos at atque sint! Iste, ipsum? Possimus rem neque perferendis architecto voluptatibus! Sequi blanditiis delectus molestias provident et reiciendis minus atque ullam, consequatur reprehenderit. Optio perferendis cum laborum distinctio fugit eaque praesentium, eveniet sunt, unde, culpa quae doloribus cumque necessitatibus harum debitis amet natus placeat molestias ex omnis! Eius cum repellat alias architecto fuga quod voluptatibus nam, incidunt iure possimus vel esse, dolor consequatur nisi modi aperiam placeat earum exercitationem! Recusandae iste accusantium vitae laboriosam dolore adipisci deleniti odit, itaque pariatur iusto ipsam, consectetur obcaecati quibusdam minima hic accusamus magni maiores facilis eos eligendi autem voluptas. Deleniti vitae modi cupiditate consequuntur! Libero veniam a rerum distinctio nisi labore ratione magnam commodi veritatis, perspiciatis suscipit facere sapiente rem magni ipsum ab unde natus quos! Excepturi voluptatibus in dolor perspiciatis ipsam reiciendis fuga, beatae laborum tenetur, nesciunt aperiam sint necessitatibus voluptatum dignissimos. Voluptate tempora porro libero voluptas! Esse itaque libero adipisci cum accusamus autem officiis. Quae tempora ut quaerat tenetur sapiente ad, incidunt hic aspernatur nesciunt veniam tempore natus accusantium, aperiam sit doloremque dolorem, unde obcaecati quasi id? Quo impedit molestiae in, excepturi quisquam porro doloremque eum facere? Quasi perferendis, cupiditate maiores, unde ea sequi, quis non qui natus excepturi nulla? Error laboriosam laudantium dolorum tempora cum hic, eveniet doloribus consequuntur nemo ipsa veritatis rem consectetur aperiam autem sunt dolores fugit molestias quos quas officiis? Ducimus, quisquam fuga. Iusto, cupiditate delectus nobis accusantium porro deserunt vel consequuntur iure! Aliquam autem aliquid ullam consequuntur, voluptate nobis delectus assumenda dolor quae ipsam, eius voluptatum dolore fuga ut cupiditate maxime vero provident, dolorum nihil officia rem? Numquam adipisci sed obcaecati enim aut suscipit illo deserunt, nulla architecto maiores, atque culpa corrupti distinctio ex assumenda nostrum, beatae cupiditate odio saepe eius nemo consectetur totam voluptate facilis? Illo.</p>
+        <h2>Atajo: background</h2>
+        <div>
+          Es posible establecer todas estas propiedades anteriores en una sola
+          regla de CSS a modo de atajo, y así ahorrar mucho espacio en escribir
+          las propiedades anteriores por separado. Si alguno de los valores no
+          necesitamos indicarlo, simplemente lo omitimos.
+          <br />
+          <br />
+          El atajo se construye con la propiedad background y sigue la siguiente
+          estructura:
+          <br />
+          <br />
+          background / color image position /size repeat attachement origin clip
+          <br />
+          <br />
+          Ten en cuenta que el parámetro / es opcional. De indicar el carácter
+          /, la propiedad background se esperará el valor background-size a
+          continuación. Veamos varios ejemplos del uso de la propiedad
+          background:
+          <br />
+          <br />
+          .element {
+          <br />
+          /* Atajo simple */ background: #fff url(imagen.jpg) top center
+          repeat-x;
+          <br />
+          /* Atajo completo */
+          <br />
+          background: deeppink url(imagen.jpg) 0 0 / 150px space scroll
+          padding-box padding- box;
+          <br />
+          /* Atajo múltiple */ background:
+          <br />
+          url(primer-plano.jpg) center center / cover, deeppink url(imagen.jpg)
+          0 0 / 150px space scroll padding-box padding-box; }
+        </div>
+        
+      </section>
+    </main>
+    <a href="./font.html" target="_blank"><button>Fuentes</button></a>
   </body>
 </html>

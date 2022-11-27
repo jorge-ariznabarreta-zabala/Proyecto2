@@ -30,29 +30,46 @@ body{
         animation-duration: 4s;
         animation-iteration-count: infinite;
         font: 40px impact;
-        padding: 0px;
-        margin:0;
+        padding: 05px;
+        margin:00;
       }
       
       @keyframes example {
         0%   {background-color:red; left:0px; top:0px;}
-        25%  {background-color:yellow; left:200px; top:0px;}
-        50%  {background-color:blue; left:200px; top:50px;}
+        25%  {background-color:yellow; left:100px; top:0px;}
+        50%  {background-color:blue; left:100px; top:50px;}
         75%  {background-color:green; left:0px; top:50px;}
         100% {background-color:red; left:0px; top:0px;}
       }
-#unidadesAbsolutas15px{
-    font-size: 15px;
+      #unidadesAbsolutas15px{
+        font-size: 15px;
+    }
+    #unidadesRelivasEm{
+        font-size: 2em;
+    }
+    #unidadesRelivasRem{
+        font-size: 1rem;
+    }
+    #unidadesRelativasVh{
+        font-size: 10vh
+    }
+    #unidadesRelativasVw{
+        font-size: 10vw;
+    }
+    .parent {
+        font-size: 15px;
+      }
+      .child {
+        font-size: 2em;
+      }
+
+@font-face {
+    font-family: 'manolo';
+    src: url(https://fonts.gstatic.com/s/rubikmicrobe/v2/UqyWK8oPP3hjw6ANS9rM3PsZQsgQaQ.woff2) format('woff2');
+    font-weight: 400; 
+    font-style: normal;
 }
-#unidadesRelivasEm{
-    font-size: 2em;
-}
-#unidadesRelivasRem{
-    font-size: 1rem;
-}
-#unidadesRelativasVh{
-    font-size: 10vh
-}
-#unidadesRelativasVw{
-    font-size: 10vw;
+
+.textoManolo {
+    font-family: 'manolo', cursive;
 }
